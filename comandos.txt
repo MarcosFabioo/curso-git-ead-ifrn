@@ -1,0 +1,17 @@
+Marcos Fábio Carneiro e Silva
+
+cd documents
+cd curso-git
+git clone  https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+cd curso-branchs-ifrn-ead/
+git add texto.txt
+git commit -m “commit arquivo texto.txt”
+git checkout -b feature-1
+git add texto.txt
+git commit -m “mudança arquivo texto.txt”
+git checkout main
+git add texto.txt
+git commit -m “mudança arquivo texto.txt main”
+git merge feature-1
+git add texto.txt
+git commit -m “resolve conflito texto.txt”
